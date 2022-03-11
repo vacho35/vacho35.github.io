@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, button{
+    font-family: oswald, Times, serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+body {
+        /* background: url(../Images/fond-resto-indien/fond-resto-classe.jpg) no-repeat; */
+        background-color: #11152c;
+        font-family: 'Fjalla One', sans-serif;
+}
+
+/* ******************************* Section1 ****************************** */
+
+/* ********************************* LEFT ************************************** */
+
+.sec1 .container {
+    display: flex;
+    align-items: center;
+    max-width: 1600px;
+    justify-content: center;
+    width: 100%;
+    background: rgb(217,140,74);
+    background: radial-gradient(circle, rgba(217,140,74,1) 7%, rgba(217,90,43,1) 54%, rgba(166,43,31,1) 80%);
+    height: 100vh;
+    color: #242A36;
+    margin: 0;
+}
+
+.sec1 .container .left {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: 0;
+    height: 648px;
+    width: 50%;
+}
+
+.sec1 .container .left img{
+    width: 350px;
+    filter: drop-shadow(20px 10px 20px);
+    padding-top: 10px;
+}
+.sec1 .container .left h1{
+    font-size: 6.5em;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-shadow: rgb(152, 50, 40) 10px 0px 0px, rgb(152, 50, 40) 9.95004px 0.998334px 0px, rgb(152, 50, 40) 9.80067px 1.98669px 0px, rgb(152, 50, 40) 9.55336px 2.9552px 0px, rgb(152, 50, 40) 9.21061px 3.89418px 0px, rgb(152, 50, 40) 8.77583px 4.79426px 0px, rgb(152, 50, 40) 8.25336px 5.64642px 0px, rgb(152, 50, 40) 7.64842px 6.44218px 0px, rgb(152, 50, 40) 6.96707px 7.17356px 0px, rgb(152, 50, 40) 6.2161px 7.83327px 0px, rgb(152, 50, 40) 5.40302px 8.41471px 0px, rgb(152, 50, 40) 4.53596px 8.91207px 0px, rgb(152, 50, 40) 3.62358px 9.32039px 0px, rgb(152, 50, 40) 2.67499px 9.63558px 0px, rgb(152, 50, 40) 1.69967px 9.8545px 0px, rgb(152, 50, 40) 0.707372px 9.97495px 0px, rgb(152, 50, 40) -0.291995px 9.99574px 0px, rgb(152, 50, 40) -1.28844px 9.91665px 0px, rgb(152, 50, 40) -2.27202px 9.73848px 0px, rgb(152, 50, 40) -3.2329px 9.463px 0px, rgb(152, 50, 40) -4.16147px 9.09297px 0px, rgb(152, 50, 40) -5.04846px 8.63209px 0px, rgb(152, 50, 40) -5.88501px 8.08496px 0px, rgb(152, 50, 40) -6.66276px 7.45705px 0px, rgb(152, 50, 40) -7.37394px 6.75463px 0px, rgb(152, 50, 40) -8.01144px 5.98472px 0px, rgb(152, 50, 40) -8.56889px 5.15501px 0px, rgb(152, 50, 40) -9.04072px 4.2738px 0px, rgb(152, 50, 40) -9.42222px 3.34988px 0px, rgb(152, 50, 40) -9.70958px 2.39249px 0px, rgb(152, 50, 40) -9.89993px 1.4112px 0px, rgb(152, 50, 40) -9.99135px 0.415807px 0px, rgb(152, 50, 40) -9.98295px -0.583741px 0px, rgb(152, 50, 40) -9.8748px -1.57746px 0px, rgb(152, 50, 40) -9.66798px -2.55541px 0px, rgb(152, 50, 40) -9.36457px -3.50783px 0px, rgb(152, 50, 40) -8.96758px -4.4252px 0px, rgb(152, 50, 40) -8.481px -5.29836px 0px, rgb(152, 50, 40) -7.90968px -6.11858px 0px, rgb(152, 50, 40) -7.25932px -6.87766px 0px, rgb(152, 50, 40) -6.53644px -7.56803px 0px, rgb(152, 50, 40) -5.74824px -8.18277px 0px, rgb(152, 50, 40) -4.90261px -8.71576px 0px, rgb(152, 50, 40) -4.00799px -9.16166px 0px, rgb(152, 50, 40) -3.07333px -9.51602px 0px, rgb(152, 50, 40) -2.10796px -9.7753px 0px, rgb(152, 50, 40) -1.12153px -9.93691px 0px, rgb(152, 50, 40) -0.123887px -9.99923px 0px, rgb(152, 50, 40) 0.87499px -9.96165px 0px, rgb(152, 50, 40) 1.86512px -9.82453px 0px, rgb(152, 50, 40) 2.83662px -9.58924px 0px, rgb(152, 50, 40) 3.77978px -9.25815px 0px, rgb(152, 50, 40) 4.68517px -8.83455px 0px, rgb(152, 50, 40) 5.54374px -8.32267px 0px, rgb(152, 50, 40) 6.34693px -7.72764px 0px, rgb(152, 50, 40) 7.0867px -7.0554px 0px, rgb(152, 50, 40) 7.75566px -6.31267px 0px, rgb(152, 50, 40) 8.34713px -5.50686px 0px, rgb(152, 50, 40) 8.8552px -4.64602px 0px, rgb(152, 50, 40) 9.27478px -3.73877px 0px, rgb(152, 50, 40) 9.6017px -2.79415px 0px, rgb(152, 50, 40) 9.83268px -1.82163px 0px, rgb(152, 50, 40) 9.96542px -0.830894px 0px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transform: rotate(-15deg);
+    bottom: 200px;
+}
+
+    /* ************************************ RIGHT ********************************* */
+
+.sec1 .container .right{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+.sec1 .container .right img{
+        width: 370px;
+        filter: drop-shadow(20px 10px 20px);
+        padding-top: 10px;
+}
+.sec1 .container .right p{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 30px;
+    font-size: 2em;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+
+    
+}
+.sec1 .container .right button{
+    width: 300px;
+    height: 65px;
+    border-radius: 17px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: orange;
+    border: none;
+    box-shadow: 0 0 10px #fff;
+    letter-spacing: 2px;
+}
+@media (max-width: 1300px){
+    .sec1 .container .left h1{
+        font-size: 6em;
+    }
+    .sec1 .container .left button{
+        margin: 20px 0;
+    }
+    .sec1 .container .right img{
+        margin: 20px 0;
+    }
+}
+@media (max-width: 1150px){
+    .sec1 .container{
+    flex-direction: column;
+    margin-top: 150px;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .sec1 .container .left .samou{
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 720px){
+    .sec1 .container .left h1{
+        font-size: 4em;
+    }
+    .sec1 .container .left p{
+        margin: 50px 35px;
+    }
+    .sec1 .container .right img{
+        width: 90%;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+    }
+}
