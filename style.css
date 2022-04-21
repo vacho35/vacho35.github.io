@@ -321,6 +321,7 @@ button span:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .sec3 .container .card{
   height: 100%;
@@ -331,6 +332,7 @@ button span:hover {
   justify-content: flex-end;
   border-radius: 20px;
   border: solid 1px #fbfbfb88;
+  margin: 0 auto;
 }
 .sec3 #services{
   position: relative;
@@ -409,6 +411,15 @@ button span:hover {
 #ingredients .text{
   background: linear-gradient(180deg, rgba(24, 21, 21, 0) 0%, rgba(24, 21, 21, 0.192) 0.01%, rgba(23, 22, 22, 0.8) 31.77%, rgba(22, 22, 23, 0.8) 63.54%, rgba(21, 24, 24, 0.648) 100%);
   border-radius: 20px;
+}
+@media only screen and (max-width: 840px){
+  .sec3 {
+    height: 160vh;
+    align-items: flex-start;
+  }
+  .sec3 .container .card {
+    margin: 10px auto;
+}
 }
 
 
